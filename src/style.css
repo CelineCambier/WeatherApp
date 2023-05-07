@@ -1,0 +1,70 @@
+.weather-app {
+    font-family: "PT Mono", monospace;
+    border: grey solid 2px;
+    border-radius: 10px;
+    padding: 12px;
+    background: #f7f8e5;
+    margin-top: 30px;
+}
+
+.prefered-cities {
+    display: inline;
+    margin-right: 10px;
+    color: blue;
+}
+
+#enter-city {
+    margin-top: 25px;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+
+
+.current-weather {
+    margin-bottom: 25px;
+}
+
+.current-temperature {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.units {
+    font-size: 15px;
+    position: relative;
+    top: -20px;
+}
+
+#celsius-link {
+    text-decoration: none;
+}
+
+#fahrenheit-link {
+    text-decoration: none;
+}
+
+.current-precipitation {
+    padding-top: 7px;
+}
+
+.forecast {
+    display: grid;
+    grid-template-areas:
+        "day day day day day"
+        "icon icon icon icon icon"
+        "prevision-temperature prevision-temperature prevision-temperature prevision-temperature prevision-temperature";
+    grid-template-columns: 15% 15% 15% 15% 15%;
+}
+
+.day {
+    text-align: center;
+}
+
+.icon {
+    text-align: center;
+}
+
+.prevision-temperature {
+    font-size: 10px;
+    text-align: center;
+}
